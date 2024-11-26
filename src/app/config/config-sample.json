@@ -1,0 +1,35 @@
+{
+  "dev": {
+    "username": "postgres",
+    "password": "root",
+    "database": "node_setup",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "PORT": 9001,
+    "base_url": "http://localhost:9001/api"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "root",
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "PORT": 9002
+  },
+  "stage": {
+    "username": "postgres",
+    "password": "root",
+    "database": "database_stage",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "PORT": 9003
+  },
+  "prod": {
+    "username": "postgres",
+    "password": "root",
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "PORT": 9004
+  }
+}
